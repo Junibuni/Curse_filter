@@ -2,56 +2,53 @@
 #include <fstream>
 #include <string>
 #include <vector>
-using namespace std;
+#include <regex>
 
-string database = "Curse_DB.txt";
+std::string database = "Curse_DB.txt";
 
 
-vector <string> create_list(string* filename)
+std::vector <std::string> create_list(std::string* filename)
 {
-	vector <string> curse_list;
-	ifstream inFile(*filename);
-	
+	std::vector <std::string> curse_list;
+	std::ifstream inFile(*filename);
+
 	while (!inFile.eof())
 	{
-		string str;
-		getline(inFile, str);
+		std::string str;
+		std::getline(inFile, str);
 		curse_list.push_back(str);
 	}
 	inFile.close();
 
 	return curse_list;
-}
+}	
 
-void compare(vector <string> &list, string* word)
+void compare(std::vector <std::string>* list, std::string* sentence)
 {
-	string input = *word;
-	char final[50] = {};
-	int cnt = 0;
-
-	for (int i = 0; i < (int)list.size(); i++)
-	{	
-		if (list[i] == input)
+	std::regex reg("");
+	std::string change_sentence = *sentence;
+	for (int i = 1; i < (*(std::vector <std::string>*)list).size(); ++i)
+	{
+		reg = (*list)[i];
+		
+		if (std::regex_match(change_sentence, reg))
 		{
-			for (int j = 0; j < (int)input.size()/2 ; j++)
-			{
-				final[j] = '*';
-			}
-			cnt++;
-			cout << final << endl;
-			break;
+			//한글의 숫자를 센뒤 밑에 '*' '**' '***' 정한다 --> 효율적인가?
+			change_sentence = std::regex_replace(change_sentence, reg, "*");
 		}
 	}
-	if (cnt == NULL) cout << input << endl;
+
+	std::cout << change_sentence << std::endl;
 }
 
 int main()
 {
-	vector <string> curse_list = create_list(&database);
-	string input;
-	cout << "단어를 입력하세요: ";
-	cin >> input;
-	compare(curse_list, &input);
+	std::vector <std::string> curse_list = create_list(&database);
+	std::string input;
+	std::cout << "문장을 입력하세요: ";
+	std::cin >> input;
+	
+	compare(&curse_list, &input);
 
 	return 0;
 }
