@@ -3,9 +3,9 @@
 #include <string>
 #include <vector>
 #include <regex>
+#include <conio.h>
 
 std::string database = "Curse_DB.txt";
-
 
 std::vector <std::string> create_list(std::string* filename)
 {
@@ -33,8 +33,8 @@ void compare(std::vector <std::string>* list, std::string* sentence)
 		if (std::regex_search(change_sentence, reg))
 		{
 			if ((*list)[i].size() / 2 == 2) change_sentence = std::regex_replace(change_sentence, reg, "**");
-			else if ((*list)[i].size() / 2 == 3)change_sentence = std::regex_replace(change_sentence, reg, "***");
-			else if ((*list)[i].size() / 2 == 4)change_sentence = std::regex_replace(change_sentence, reg, "****");
+			else if ((*list)[i].size() / 2 == 3) change_sentence = std::regex_replace(change_sentence, reg, "***");
+			else if ((*list)[i].size() / 2 == 4) change_sentence = std::regex_replace(change_sentence, reg, "****");
 		}
 	}
 
@@ -45,9 +45,13 @@ int main()
 {
 	std::vector <std::string> curse_list = create_list(&database);
 	std::string input;
-	std::cout << "문장을 입력하세요: ";
-	std::getline(std::cin, input);
-	
-	compare(&curse_list, &input);
+	std::cout << "종료하려면 esc키 입력" << std::endl;
+	do
+	{
+		std::cout << "문장을 입력하세요: ";
+		std::getline(std::cin, input);
+
+		compare(&curse_list, &input);
+	} while (_getch() != 27);
 	return 0;
 }
