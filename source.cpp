@@ -4,6 +4,7 @@
 #include <vector>
 #include <regex>
 #include <conio.h>
+#include <time.h>
 
 std::string database = "Curse_DB.txt";
 
@@ -50,8 +51,11 @@ int main()
 	{
 		std::cout << "문장을 입력하세요: ";
 		std::getline(std::cin, input);
-
+		clock_t start = 0, end = 0;
+		start = clock();
 		compare(&curse_list, &input);
+		end = clock();
+		std::cout << "runtime: " << end - start <<"ms"<< std::endl;
 	} while (_getch() != 27);
 	return 0;
 }
