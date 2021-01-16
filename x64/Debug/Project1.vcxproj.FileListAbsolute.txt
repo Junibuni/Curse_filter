@@ -1,4 +1,4 @@
 C:\Users\keti\Desktop\Curse_filter\Curse_filter\x64\Debug\Project1.exe
 C:\Users\keti\Desktop\Curse_filter\Curse_filter\x64\Debug\Project1.pdb
-C:\Users\CHOI\Desktop\cpp\Project1\Curse_filter\x64\Debug\Project1.exe
-C:\Users\CHOI\Desktop\cpp\Project1\Curse_filter\x64\Debug\Project1.pdb
+C:\Users\CHOI\Desktop\cpp\Project1\Curse_filter\x64\Debug\Curse_filter_array.exe
+C:\Users\CHOI\Desktop\cpp\Project1\Curse_filter\x64\Debug\Curse_filter_array.pdb

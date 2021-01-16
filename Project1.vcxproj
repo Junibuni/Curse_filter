@@ -140,11 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="header.cpp" />
-    <ClCompile Include="source.cpp" />
+    <ClCompile Include="curse_filter_array.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Curse_DB.txt" />
+    <Text Include="Curse_DB_2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
