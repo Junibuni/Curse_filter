@@ -10,7 +10,7 @@ List::List()
 
 List::~List() {}
 
-std::string List::getData(int index)
+char* List::getData(int index)
 {
 	Node* temp = Head;
 	for (int i = 0; i <= index; ++i)
@@ -20,7 +20,7 @@ std::string List::getData(int index)
 	return temp->data;
 }
 
-void List::add(std::string data)
+void List::add(char* data)
 {
 	Node* newNode = new Node;
 	newNode->data = data;
@@ -43,7 +43,7 @@ int List::size()
 	return List::count;
 }
 
-void List::setData(int index, std::string data)
+void List::setData(int index, char* data)
 {
 	Node* temp = Head;
 	for (int i = 0; i <= index; ++i)
