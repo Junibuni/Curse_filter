@@ -1,3 +1,5 @@
 D:\CHOI\Documents\curse_filter\Project1\Curse_filter\x64\Debug\Curse_filter_array.pdb
 D:\CHOI\Documents\curse_filter\Project1\Curse_filter\Curse_filter_array\x64\Debug\Curse_filter_array.exe
 D:\CHOI\Documents\curse_filter\Project1\Curse_filter\Curse_filter_array\x64\Debug\Curse_filter_array.pdb
+C:\Users\keti\Desktop\Curse_filter\Curse_filter\x64\Debug\Curse_filter_array.pdb
+C:\Users\keti\Desktop\Curse_filter\Curse_filter\Curse_filter_array\x64\Debug\Curse_filter_array.pdb
