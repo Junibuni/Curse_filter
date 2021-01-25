@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1. Curse_filter_array", "Cu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. Curse_filter_linked_list", "Curse_filter_linked_list\Curse_filter_linked_list.vcxproj", "{22857E13-3032-4C70-B985-A7A130167E0D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. Curse_filter_binary_tree", "Curse_filter_binary_tree\Curse_filter_binary_tree\Curse_filter_binary_tree.vcxproj", "{CCD5CBC3-1859-473F-8738-0810577C1AA3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,14 +31,6 @@ Global
 		{22857E13-3032-4C70-B985-A7A130167E0D}.Release|x64.Build.0 = Release|x64
 		{22857E13-3032-4C70-B985-A7A130167E0D}.Release|x86.ActiveCfg = Release|Win32
 		{22857E13-3032-4C70-B985-A7A130167E0D}.Release|x86.Build.0 = Release|Win32
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Debug|x64.ActiveCfg = Debug|x64
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Debug|x64.Build.0 = Debug|x64
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Debug|x86.ActiveCfg = Debug|Win32
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Debug|x86.Build.0 = Debug|Win32
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Release|x64.ActiveCfg = Release|x64
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Release|x64.Build.0 = Release|x64
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Release|x86.ActiveCfg = Release|Win32
-		{CCD5CBC3-1859-473F-8738-0810577C1AA3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
