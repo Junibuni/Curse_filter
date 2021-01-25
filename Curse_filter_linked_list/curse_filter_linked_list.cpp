@@ -33,15 +33,18 @@ int main(void)
 		wchar_t str[10];
 		wchar_t* pline;
 		char* char_pline;
-		while (!feof(p_file))
+		if (p_file != NULL)
 		{
-			pline = fgetws(str, 9, p_file);
-			char_pline = ConvertWCtoC(pline);
-			sort_hangul(pline, char_pline);
+			while (!feof(p_file))
+			{
+				pline = fgetws(str, 9, p_file);
+				char_pline = ConvertWCtoC(pline);
+				sort_hangul(pline, char_pline);
 
-			//wprintf(L"%s\n", pline);
+				//wprintf(L"%s\n", pline);
+			}
+			fclose(p_file);
 		}
-		fclose(p_file);
 	}
 
 
