@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bitree.cpp" />
     <ClCompile Include="curse_filter_binary_tree.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tree_node.h" />
+    <ClInclude Include="bitree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
