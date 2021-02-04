@@ -19,19 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bitree.cpp" />
-    <ClCompile Include="curse_filter_binary_tree.cpp" />
+    <ClInclude Include="tree_class.h" />
+    <ClInclude Include="tree_node.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bitree.h" />
+    <ClCompile Include="curse_filter_tree.cpp" />
+    <ClCompile Include="tree_node.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{29b8c90f-a9b6-42cd-8321-2385aaad5763}</ProjectGuid>
-    <RootNamespace>Cursefilterbinarytree</RootNamespace>
+    <ProjectGuid>{d96aaa50-4046-439c-82e7-7775f44144ae}</ProjectGuid>
+    <RootNamespace>Cursefiltertree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>3. Curse_filter_binary_tree</ProjectName>
+    <ProjectName>3. Curse_filter_tree</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
