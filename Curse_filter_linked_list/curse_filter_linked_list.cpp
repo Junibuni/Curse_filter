@@ -17,7 +17,7 @@ void split_cnt(std::string input);
 
 
 List ga, na, da, ra, ma, ba, sa, ah, ja, cha, ka, ta, pa, ha;
-List ko_order[14] = {ga, na, da, ra, ma, ba, sa, ah, ja, cha, ka, ta, pa, ha};
+List ko_order[14] = { ga, na, da, ra, ma, ba, sa, ah, ja, cha, ka, ta, pa, ha };
 int cnt[14] = { 0, };
 const char database[14] = "Curse_DB1.txt";
 const char UTF8_type[13] = "rt,ccs=UTF-8";
@@ -26,7 +26,7 @@ int main(void)
 {
 	FILE* p_file = NULL;
 	setlocale(LC_ALL, "ko-KR");
-	
+
 	if (0 == fopen_s(&p_file, database, UTF8_type))
 	{
 		List curse_list;
@@ -56,7 +56,7 @@ int main(void)
 		std::cout << "문장을 입력하세요: ";
 		std::getline(std::cin, input);
 		split_cnt(input);
-		
+
 		clock_t start = 0, end = 0;
 		start = clock();
 		for (int i = 0; i < 13; ++i)
@@ -70,7 +70,7 @@ int main(void)
 		std::cout << input << std::endl;
 		end = clock();
 		std::cout << "runtime: " << end - start << "ms" << std::endl;
-	}while (_getch() != 27);
+	} while (_getch() != 27);
 
 	return 0;
 }

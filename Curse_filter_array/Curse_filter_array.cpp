@@ -46,6 +46,8 @@ int main()
 {
 	std::vector <std::string> curse_list = create_list(&database);
 	std::string input;
+	std::cout << "Curse Filter Array" << std::endl;
+
 	std::cout << "종료하려면 esc키 입력" << std::endl;
 	do
 	{
