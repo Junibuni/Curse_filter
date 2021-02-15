@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. Curse_filter_linked_list
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. Curse_filter_tree", "Curse_filter_tree\Curse_filter_tree.vcxproj", "{CDEE56C6-49AC-4F72-A151-8ABAE18F0B20}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Curse_tree_hash", "Curse_tree_hash\Curse_tree_hash.vcxproj", "{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{CDEE56C6-49AC-4F72-A151-8ABAE18F0B20}.Release|x64.Build.0 = Release|x64
 		{CDEE56C6-49AC-4F72-A151-8ABAE18F0B20}.Release|x86.ActiveCfg = Release|Win32
 		{CDEE56C6-49AC-4F72-A151-8ABAE18F0B20}.Release|x86.Build.0 = Release|Win32
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Debug|x64.ActiveCfg = Debug|x64
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Debug|x64.Build.0 = Debug|x64
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Debug|x86.Build.0 = Debug|Win32
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Release|x64.ActiveCfg = Release|x64
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Release|x64.Build.0 = Release|x64
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Release|x86.ActiveCfg = Release|Win32
+		{BE6CD447-5D20-4EFD-9EC1-32AE7DEB229B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

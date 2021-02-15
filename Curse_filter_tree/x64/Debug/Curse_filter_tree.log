@@ -1,0 +1,4 @@
+﻿  treemain.cpp
+C:\Users\keti\Desktop\Curse_filter\Curse_filter\Curse_filter_tree\treemain.cpp(52,1): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\keti\Desktop\Curse_filter\Curse_filter\Curse_filter_tree\treemain.cpp(111,68): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Curse_filter_tree.vcxproj -> C:\Users\keti\Desktop\Curse_filter\Curse_filter\x64\Debug\3. Curse_filter_tree.exe
