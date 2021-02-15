@@ -15,19 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tree_node.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="tree_class.h">
+    <ClCompile Include="treemain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnicodeConvert.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="curse_filter_tree.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="tree_node.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <Text Include="Curse_DB.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>

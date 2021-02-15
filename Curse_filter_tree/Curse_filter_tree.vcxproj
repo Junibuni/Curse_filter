@@ -18,18 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="tree_class.h" />
-    <ClInclude Include="tree_node.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="curse_filter_tree.cpp" />
-    <ClCompile Include="tree_node.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d96aaa50-4046-439c-82e7-7775f44144ae}</ProjectGuid>
+    <ProjectGuid>{cdee56c6-49ac-4f72-a151-8abae18f0b20}</ProjectGuid>
     <RootNamespace>Cursefiltertree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>3. Curse_filter_tree</ProjectName>
@@ -147,6 +139,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="treemain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnicodeConvert.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Curse_DB.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
